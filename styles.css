@@ -1,43 +1,7 @@
-.header-menu-hamburguer {
-  width: 24px;
-  height: 24px;
-  background-image: url("../assets/AluraBooks/Menu.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  display: inline-block;
-}
-
-.header {
-  background-color: #FFFFFF;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.container-img {
-  padding: 1em;
-}
-
-.menu-list {
-  display: none;
-}
-
+@import 'styles/header.css';
 body {
   background-color: #EBECEE;
-}
-/*# sourceMappingURL=styles.css.map */
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+}/*# sourceMappingURL=styles.css.map */

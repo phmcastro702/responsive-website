@@ -10,11 +10,11 @@
 }
 
 .header {
-    // background-color: var(--white);
     background-color: $white;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .container {
@@ -28,8 +28,34 @@
 
 .menu-list {
     display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
 }
 
 .container-btn {
 
+    &:checked {
+        ~.menu-list {
+            display: block;
+        }
+    }
+}
+
+.menu-list-title,
+.menu-list-item {
+
+    padding: 1em;
+    background-color: $white;
+}
+
+.menu-list-title {
+    color: $menu-title-color;
+}
+
+.menu-list-link {
+    background: $menu-item-color;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
 }
