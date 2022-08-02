@@ -1,0 +1,7 @@
+@import 'styles/header';
+@import 'colors';
+
+body {
+    // background-color: var(--background-color);
+    background-color: $bg-color;
+}
