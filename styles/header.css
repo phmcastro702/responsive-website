@@ -31,6 +31,9 @@
   width: 60vw;
 }
 
+.container-btn {
+  display: none;
+}
 .container-btn:checked ~ .menu-list {
   display: block;
 }
@@ -43,6 +46,7 @@
 
 .menu-list-title {
   color: #EB9B00;
+  font-weight: 700;
 }
 
 .menu-list-link {

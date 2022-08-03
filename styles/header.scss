@@ -35,6 +35,8 @@
 
 .container-btn {
 
+    display: none;
+
     &:checked {
         ~.menu-list {
             display: block;
@@ -51,10 +53,11 @@
 
 .menu-list-title {
     color: $menu-title-color;
+    font-weight: 700;
 }
 
 .menu-list-link {
-    background: $menu-item-color;
+    background: $primary-color-gradient;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;

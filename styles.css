@@ -1,4 +1,5 @@
 @import 'styles/header.css';
+@import 'styles/banner.css';
 body {
   background-color: #EBECEE;
   font-family: "Poppins";
