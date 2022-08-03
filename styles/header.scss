@@ -1,4 +1,5 @@
 @import '../colors';
+@import '../fonts';
 
 .header-menu-hamburguer {
     width: 24px;
@@ -61,4 +62,50 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
+}
+
+.container-title,
+.options {
+    display: none;
+}
+
+
+@media screen and (min-width: 1024px) {
+
+    .container-title,
+    .container-title-bold {
+        font-family: $brand-name-font;
+        font-size: 30px;
+    }
+
+    .container-title {
+        font-weight: 400;
+        display: block;
+    }
+
+    .container-title-bold {
+        font-weight: 700;
+    }
+
+    .options {
+        display: flex;
+    }
+
+    .options-item {
+        padding: 0 1em;
+        text-transform: uppercase;
+    }
+
+    .options-link {
+        text-decoration: none;
+        color: $black;
+    }
+
+    .hide-container-img {
+        display: none;
+    }
+
+    .header-menu-hamburguer {
+        display: none;
+    }
 }
