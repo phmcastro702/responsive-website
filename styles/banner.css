@@ -30,7 +30,6 @@
   text-align: center;
   color: #FFFFFF;
   background: url("../assets/AluraBooks/Lupa.svg") no-repeat;
-  background-position: 1em;
 }
 .banner-search:-ms-input-placeholder {
   font-family: "Poppins";
@@ -39,7 +38,6 @@
   text-align: center;
   color: #FFFFFF;
   background: url("../assets/AluraBooks/Lupa.svg") no-repeat;
-  background-position: 1em;
 }
 .banner-search::placeholder {
   font-family: "Poppins";
@@ -48,5 +46,4 @@
   text-align: center;
   color: #FFFFFF;
   background: url("../assets/AluraBooks/Lupa.svg") no-repeat;
-  background-position: 1em;
 }/*# sourceMappingURL=banner.css.map */

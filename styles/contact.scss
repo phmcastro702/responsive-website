@@ -1,0 +1,42 @@
+@import '../colors';
+@import '../fonts';
+
+.contact {
+    background-color: $white;
+    padding: 1em;
+}
+
+.contact-title,
+.contact-text {
+    background: $primary-color-gradient;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact-title {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contact-text {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 1em 0;
+}
+
+
+.contact-input-email {
+    padding: 1em;
+    border: 1px solid $dark-blue;
+    border-radius: 24px;
+    width: 90%;
+    color: $dark-blue;
+
+    &::placeholder {
+        font-family: $main-font;
+        color: $dark-blue;
+        background: url('../assets/AluraBooks/Email.svg') no-repeat;
+        padding-left: 2em;
+    }
+
+}
