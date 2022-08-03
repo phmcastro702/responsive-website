@@ -20,4 +20,55 @@
 .swiper-pagination {
   position: initial;
   margin: 0.5em 0;
+}
+
+.card {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin: 1em;
+  padding: 1em;
+}
+
+.card-description-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5em;
+}
+
+.card-btns-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-btns {
+  display: flex;
+}
+
+.description-title {
+  color: #EB9B00;
+  font-weight: 700;
+}
+
+.description-book-title {
+  color: #002F52;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 0.5em 0;
+}
+
+.description-text {
+  font-size: 14px;
+}
+
+.card-btns-item {
+  margin: 0 0.5em;
+}
+
+.card-btns-link {
+  background-color: #EB9B00;
+  padding: 1em 2.2em;
+  color: #FFFFFF;
+  font-weight: 700;
+  text-decoration: none;
 }/*# sourceMappingURL=carousel.css.map */
