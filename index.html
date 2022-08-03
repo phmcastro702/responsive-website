@@ -9,6 +9,7 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
     </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="styles.css">
 
 
@@ -46,7 +47,7 @@
         <div class="container">
             <a href="#"><img class="container-img" src="assets/AluraBooks/Favoritos.svg" alt="Meus favoritos"></a>
             <a href="#"><img class="container-img" src="assets/AluraBooks/Compras.svg" alt="Carrinho de compras"></a>
-            <a href="#"><img class="container-img" src="assets/AluraBooks/Usuário.svg" alt="Meu perfil"></a>
+            <a href="#"><img class="container-img" src="assets/AluraBooks/Usuario.svg" alt="Meu perfil"></a>
         </div>
     </header>
 
@@ -57,7 +58,53 @@
         <input type="search" class="banner-search" placeholder="Qual será sua próxima leitura?">
     </section>
 
+    <section class="carousel">
+        <h2 class="carousel-title">Novos lançamentos</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <img src="assets/AluraBooks/ApacheKafka.png" alt="Livro sobre apache kafka">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/AluraBooks/Liderança.png" alt="Livro sobre liderança em design">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/AluraBooks/Javascript.png" alt="Livro sobre javascript">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/AluraBooks/Guia Front-end.png" alt="Livro guia de front-end">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/AluraBooks/Portugol.png" alt="Livro sobre portugol">
+                </div>
+            </div>
 
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            
+        </div>
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets'
+            }
+        });
+    </script>
 </body>
 
 </html>

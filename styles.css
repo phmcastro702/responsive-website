@@ -1,5 +1,6 @@
 @import 'styles/header.css';
 @import 'styles/banner.css';
+@import 'styles/carousel.css';
 body {
   background-color: #EBECEE;
   font-family: "Poppins";
