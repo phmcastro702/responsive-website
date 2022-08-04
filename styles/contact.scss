@@ -40,3 +40,24 @@
     }
 
 }
+
+
+@media screen and (min-width: 1024px) {
+    .contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-title {
+        font-size: 24px;
+    }
+
+    .contact-description {
+        margin-right: 2em;
+        width: 30%;
+    }
+    .contact-input-email {
+        width: 30%;
+    }
+}

@@ -8,3 +8,40 @@ footer {
     background-color: $white;
     padding: 1em;
 }
+
+.footer-list {
+    display: none;
+}
+
+
+@media screen and (min-width: 1024px) {
+    footer {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .footer-list {
+        display: block;
+    }
+
+    .footer-list-title {
+        color: $our-light-grey;
+        font-size: 14px;
+    }
+
+    .footer-list-item {
+        display: flex;
+        align-items: center;
+        margin: 0.6em 0;
+    }
+
+    .footer-list-link {
+        color: $our-grey;
+        text-decoration: none;
+        margin-left: 0.6em;
+    }
+
+    .footer-title {
+        font-size: 24px;
+    }
+}

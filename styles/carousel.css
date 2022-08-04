@@ -71,4 +71,23 @@
   color: #FFFFFF;
   font-weight: 700;
   text-decoration: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .carousel-title {
+    font-size: 26px;
+  }
+  .swiper-pagination {
+    margin-top: 2em;
+    margin-bottom: 3em;
+  }
+  .swiper-button-prev,
+.swiper-button-next {
+    display: block;
+    top: 60%;
+  }
+  .card {
+    width: 40%;
+    margin: 2em auto;
+  }
 }/*# sourceMappingURL=carousel.css.map */
