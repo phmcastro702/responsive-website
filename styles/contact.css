@@ -64,4 +64,9 @@
   .contact-input-email {
     width: 30%;
   }
+}
+@media screen and (min-width: 1728px) {
+  .contact {
+    padding: 3em 20vw;
+  }
 }/*# sourceMappingURL=contact.css.map */

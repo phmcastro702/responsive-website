@@ -10,7 +10,7 @@
     display: inline-block;
 }
 
-.header {
+header {
     background-color: $white;
     display: flex;
     justify-content: space-between;
@@ -27,6 +27,10 @@
     padding: 1em;
 }
 
+.container-user-icons-description {
+    display: none;
+}
+
 .menu-list {
     display: none;
     position: absolute;
@@ -41,6 +45,15 @@
     &:checked {
         ~.menu-list {
             display: block;
+        }
+
+        ~.container-label {
+            background: $primary-color-gradient;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            .header-menu-hamburguer {
+                background-image: url('../assets/AluraBooks/Menu\ Aberto.png');
+            }
         }
     }
 }
@@ -120,4 +133,30 @@
     .header-menu-hamburguer {
         display: none;
     }
+}
+
+
+@media screen and (min-width: 1728px) {
+
+    .container-link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .container-user-icons-description {
+        display: block;
+        background: $primary-color-gradient;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    header {
+        padding: 0 2em;
+    }
+
+    .options {
+        margin-right: auto;
+    }
+
 }

@@ -72,4 +72,12 @@
   .banner-search {
     width: 50%;
   }
+}
+@media screen and (min-width: 1728px) {
+  .banner {
+    padding: 6em 0;
+  }
+  .banner-search {
+    width: 35%;
+  }
 }/*# sourceMappingURL=banner.css.map */
