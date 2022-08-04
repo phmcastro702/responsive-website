@@ -45,6 +45,18 @@
     }
 }
 
+.categories-btn {
+
+    display: none;
+
+    &:checked {
+        ~.menu-list {
+            display: block;
+            width: auto;
+        }
+    }
+}
+
 .menu-list-title,
 .menu-list-item {
 

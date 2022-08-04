@@ -38,6 +38,14 @@
   display: block;
 }
 
+.categories-btn {
+  display: none;
+}
+.categories-btn:checked ~ .menu-list {
+  display: block;
+  width: auto;
+}
+
 .menu-list-title,
 .menu-list-item {
   padding: 1em;

@@ -46,4 +46,30 @@
   text-align: center;
   color: #FFFFFF;
   background: url("../assets/AluraBooks/Lupa.svg") no-repeat;
+}
+.banner-search:focus::-moz-placeholder {
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background-position: -2em;
+  color: transparent;
+}
+.banner-search:focus:-ms-input-placeholder {
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background-position: -2em;
+  color: transparent;
+}
+.banner-search:focus::placeholder {
+  transition: all 0.5s ease;
+  background-position: -2em;
+  color: transparent;
+}
+
+@media screen and (min-width: 1024px) {
+  .banner-title {
+    font-size: 36px;
+  }
+  .banner-search {
+    width: 50%;
+  }
 }/*# sourceMappingURL=banner.css.map */
