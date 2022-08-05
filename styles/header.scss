@@ -49,23 +49,10 @@ header {
 
         ~.container-label {
             background: $primary-color-gradient;
-            background-clip: text;
-            -webkit-text-fill-color: transparent;
+
             .header-menu-hamburguer {
                 background-image: url('../assets/AluraBooks/Menu\ Aberto.png');
             }
-        }
-    }
-}
-
-.categories-btn {
-
-    display: none;
-
-    &:checked {
-        ~.menu-list {
-            display: block;
-            width: auto;
         }
     }
 }
@@ -94,7 +81,7 @@ header {
     display: none;
 }
 
-
+// Query for tablet devices
 @media screen and (min-width: 1024px) {
 
     .container-title,
@@ -117,7 +104,7 @@ header {
     }
 
     .options-item {
-        padding: 0 1em;
+        padding: 2em 1em;
         text-transform: uppercase;
     }
 
@@ -133,9 +120,42 @@ header {
     .header-menu-hamburguer {
         display: none;
     }
+
+    .categories-btn {
+
+        display: none;
+
+        &:checked {
+            ~.menu-list {
+                display: block;
+                width: auto;
+            }
+
+            ~.options-checkbox-label {
+                .options-item {
+                    color: $white;
+                    background: $primary-color-gradient;
+
+                }
+            }
+        }
+    }
+
+    .menu-list-item {
+        &:hover {
+            background: $primary-color-gradient;
+
+            .menu-list-link {
+                -webkit-text-fill-color: $white;
+                text-decoration: none;
+
+            }
+        }
+    }
 }
 
 
+// Query for desktop devices
 @media screen and (min-width: 1728px) {
 
     .container-link {
